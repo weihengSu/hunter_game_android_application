@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Rel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/toMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="315dp"
+        android:layout_y="238dp"
+        android:contentDescription="@null"
+        android:src="@drawable/red_button1" />
+
+    <TextView
+        android:id="@+id/go_mainmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="19dp"
+        android:layout_x="364dp"
+        android:layout_y="279dp"
+        android:text="@string/hello_main"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imgCont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="315dp"
+        android:layout_y="100dp"
+        android:contentDescription="@null"
+        android:src="@drawable/red_button1" />
+
+    <TextView
+        android:id="@+id/continue_g"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="371dp"
+        android:layout_y="140dp"
+        android:text="@string/hello_continue"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp" />
+
+</AbsoluteLayout>
